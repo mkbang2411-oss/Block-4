@@ -1,7 +1,7 @@
 # Block-4 — Student List (CSR: React + Vite, Express + SQLite)
 
 ```
-Block-3/
+Block-4/
 ├── backend/    Express + SQLite, only returns JSON (/api/students)   -> http://localhost:4000
 └── frontend/   React + Vite (client-side rendering)                   -> http://localhost:5173
 ```
