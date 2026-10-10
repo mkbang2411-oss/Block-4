@@ -6,7 +6,18 @@ Block-3/
 └── frontend/   React + Vite (client-side rendering)                   -> http://localhost:5173
 ```
 
-## Run (one command)
+## PUBLIC HOSTING
+
+🌐 **Live demo:** https://block4-three.vercel.app
+
+### Tech stack
+
+- Frontend: React, Vite, React Router (CSR) → deploy trên Vercel
+- Backend: Express, SQLite → deploy trên Railway
+
+## LOCAL HOSTING
+
+### Run (one command)
 
 ```bash
 npm run install:all     # installs root + backend + frontend (once)
@@ -24,7 +35,7 @@ cd frontend && npm install && npm run dev     # app on :5173
 
 Vite forwards `/api/*` to the backend, so no extra setup is needed.
 
-## How it works
+## HOW IT WORKS
 
 - `App.jsx` owns the `students` state (single source). Pages only read it.
 - `StudentForm.jsx` uses controlled inputs. On submit it calls `onAdd` -> `POST /api/students`
